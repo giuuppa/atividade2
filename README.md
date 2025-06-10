@@ -8,7 +8,7 @@ O objetivo foi realizar o deploy de uma página web profissional em uma instânc
 
 ## 🌐 Acesse a Página
 
-🔗 http://52.14.147.216
+🔗 (http://3.145.23.239:8080/)
 
 ## ⚙️ Tecnologias Utilizadas
 
@@ -28,12 +28,7 @@ O objetivo foi realizar o deploy de uma página web profissional em uma instânc
 5. Testes de acesso remoto via IP público.  
 6. Inclusão de ícones, links e informações completas no HTML.  
 
-## 📎 Links
 
-- [LinkedIn](https://linkedin.com/in/seunome)
-- [GitHub](https://github.com/seunome)
-
----
 
 🖥️ Página hospedada com sucesso via AWS EC2 - ec2-52-14-147-216.us-east-2.compute.amazonaws.com
 
