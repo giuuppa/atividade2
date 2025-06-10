@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #26292E;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #838C9E;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #34415D;
+}
+
+h1 {
+  margin-top: 15px;
+  color: #26292E;
+}
+
+section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+section h2, h3.tecnologias {
+  color: #333;
+  border-bottom: 2px solid #34415D;
+  padding-bottom: 5px;
+}
+
+.tech {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  background: transparent;
+  padding: 1rem 0;
+}
+
+.tech-tr {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+.tech-tr i {
+  font-size: 3rem;
+  margin: 0 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  color:rgb(35, 45, 66);
+}
+
+.tech-tr i:hover {
+  transform: scale(1.4);
+  color: #34415D;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(35, 45, 66);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #34415D;
+}
+
+.links i {
+  font-size: 1.5rem;
+}
